@@ -1,0 +1,6 @@
+data = [1, 'hi', 3, 'i', 5, 'am', 7, 'sara']
+
+# Using lambda function to check if each element is an integer or a string
+result = list(map(lambda x: 'Integer' if isinstance(x, int) else 'String', data))
+
+print(result)
